@@ -28,8 +28,7 @@ Terminal-based game with an epic BYU vs Utah twist called BOOMBOOM!
 
 ### Install/Syntax for Climage (Display images in Terminal) (Didn't work haha) 
 
-Taken from the Climage website 
-- Sean Layton
+"Taken from the Climage website" -Sean Layton
 
 pip install climage
 
