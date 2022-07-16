@@ -1,6 +1,6 @@
 # Boomboom by Sean Layton and Lourenzo Kodama
 
-Terminal-based game without the help of any User Interface library like ncurses, pygame, etc.
+Terminal-based game with an epic BYU vs Utah twist called BOOMBOOM!
 
 ### Prerequisites
 
