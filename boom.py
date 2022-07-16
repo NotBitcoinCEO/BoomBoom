@@ -9,7 +9,7 @@ class Boom():
 	enem_down = -1
 	enem_left = -1
 	
-#it places bombs and runs away. As a flee bot should.
+#It places booms and runs away. As a flee bot should.
 
 	def place(self,row,col):
 		if self.status==-1:
@@ -18,7 +18,7 @@ class Boom():
 			self.col = col
 			matrix[row][col] = 53
 			
-# game map is represented in the form (r,c)
+# Game map is represented in the form (r,c)
 
 	def which_enem(self,r,c):
 		for i in range(len(enemies)):
@@ -32,7 +32,7 @@ class Boom():
 		return matrix[r][c]
 	
 	
-#it places bombs and runs away. As a flee bot kill enemy.
+#It places booms and runs away. As a flee bot kill enemy.
 
 	def explode(self,bmrow,bmcol):
 		self.up = self.determine(self.row-1,self.col)
@@ -64,7 +64,7 @@ class Boom():
 
 		matrix[self.row][self.col] = 50
 		
-#it places bot restore on the map.
+#It places bot restore on the map.
 
 	def restore(self,bmobj):
 		if self.up==3 or self.right==3 or self.down==3 or self.left==3 or self.center==3:
