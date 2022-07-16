@@ -30,6 +30,9 @@ class Boom():
 
 	def determine(self,r,c):
 		return matrix[r][c]
+	
+	
+#it places bombs and runs away. As a flee bot kill enemy.
 
 	def explode(self,bmrow,bmcol):
 		self.up = self.determine(self.row-1,self.col)
@@ -60,7 +63,9 @@ class Boom():
 				self.enem_left = self.which_enem(self.row,self.col-1)
 
 		matrix[self.row][self.col] = 50
-#Automated Reneration Enemies on the maps
+		
+#it places bot restore on the map.
+
 	def restore(self,bmobj):
 		if self.up==3 or self.right==3 or self.down==3 or self.left==3 or self.center==3:
 			bmobj.death()
