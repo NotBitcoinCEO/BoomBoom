@@ -34,7 +34,7 @@ class KBHit:
         else:
             termios.tcsetattr(self.fd, termios.TCSAFLUSH, self.old_term)
 
-    #Returns keyboard character after kbhit() is called. Don't use with get arrow.
+    #Returns keyboard  after kbhit() is called. Don't use with get arrow.
     def getch(self):
         s = ''
         
