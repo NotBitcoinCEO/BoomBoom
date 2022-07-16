@@ -2,7 +2,7 @@ from test import *
 from boom import *
 import os
 
-#Create map
+#Create map control character and AI, if artifact explode
 def Main():
 	generate_walls()
 	generate_enemies(3)
