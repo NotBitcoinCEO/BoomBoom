@@ -6,7 +6,8 @@ import os
 import climage
 
 #code: 0-air 1-wall 2-brick 3-boomboom 4-enemy 5-boom
-
+# Map Generator to create specific material and object on maps def print_matrix(): to put color on object.
+		
 matrix = list()
 class Wall():
 	def __init__(self,row,col):
