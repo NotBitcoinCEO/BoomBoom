@@ -1,4 +1,6 @@
 from test import *
+# class boom 
+
 class Boom():
 
 	status = -1
@@ -6,6 +8,8 @@ class Boom():
 	enem_right = -1
 	enem_down = -1
 	enem_left = -1
+	
+#it places bombs and runs away. As a flee bot should.
 
 	def place(self,row,col):
 		if self.status==-1:
@@ -13,12 +17,16 @@ class Boom():
 			self.row = row
 			self.col = col
 			matrix[row][col] = 53
+			
+# game map is represented in the form (r,c)
 
 	def which_enem(self,r,c):
 		for i in range(len(enemies)):
 			if enemies[i].row == r and enemies[i].col == c:
 				return i
 		return -1
+	
+
 
 	def determine(self,r,c):
 		return matrix[r][c]
