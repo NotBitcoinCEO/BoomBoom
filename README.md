@@ -21,10 +21,10 @@ Terminal-based game with an epic BYU vs Utah twist called BOOMBOOM!
 
 ### Objective
 
-* You cannot destroy solid walls with boom
-* You can destroy brick walls with boom
-* The aim is to kill all the enemies
-* You die if you bump into an enemy or if you get boomed
+* You can't destroy solid walls with a boom
+* You can destroy brick walls with a boom
+* The aim is to boom all of the Utah players
+* You die if you bump into Utah or if you boom yourself
 
 ### Install/Syntax for Climage (Display images in Terminal) (Didn't work haha) 
 
