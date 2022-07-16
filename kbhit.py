@@ -2,7 +2,7 @@ import os
 
 if os.name == 'nt':
     import msvcrt
-
+# Create a itens 
 class KBHit:
     
     def __init__(self):
@@ -67,8 +67,7 @@ class KBHit:
             dr,dw,de = select([sys.stdin], [], [], 0)
             return dr != []
     
-    
-# Test    
+      
 if __name__ == "__main__":
     
     kb = KBHit()
